@@ -62,6 +62,8 @@ nav:
     - Graphs: data-structures/graphs.md
   - Systems Interview:
     - systems/index.md
+    - Computer Memory: systems/memory.md
+    - Operating Systems: systems/operating-systems.md
     - Networking: systems/networking.md
     - Caching: systems/caching.md
     - Databases: systems/databases.md

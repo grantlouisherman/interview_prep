@@ -10,7 +10,7 @@ Core data structures with operations, complexity analysis, implementations, and 
 
 ### [Systems Interview](systems/index.md)
 
-Foundational systems topics for design interviews. Covers networking, caching, databases, load balancers, and distributed systems.
+Foundational systems topics for design interviews. Covers computer memory, operating systems, networking, caching, databases, load balancers, and distributed systems.
 
 ### [Algorithms & Strategies](algorithms/index.md)
 
