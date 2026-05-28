@@ -1,0 +1,82 @@
+site_name: Interview Prep
+site_description: Data structures, systems design, and algorithms reference
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.tabs.link
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  icon:
+    logo: material/school
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - def_list
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Data Structures:
+    - data-structures/index.md
+    - Stacks: data-structures/stacks.md
+    - Queues: data-structures/queues.md
+    - Heaps: data-structures/heaps.md
+    - Binary Trees: data-structures/binary-trees.md
+    - Graphs: data-structures/graphs.md
+  - Systems Interview:
+    - systems/index.md
+    - Networking: systems/networking.md
+    - Caching: systems/caching.md
+    - Databases: systems/databases.md
+    - Load Balancers: systems/load-balancers.md
+    - Distributed Systems: systems/distributed-systems.md
+  - Algorithms & Strategies:
+    - algorithms/index.md
+    - Greedy Algorithms: algorithms/greedy.md
+    - Dynamic Programming: algorithms/dynamic-programming.md
+    - Divide and Conquer: algorithms/divide-and-conquer.md
+    - Backtracking: algorithms/backtracking.md
+    - Sorting & Searching: algorithms/sorting-and-searching.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
